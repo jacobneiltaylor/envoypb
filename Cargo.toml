@@ -1,0 +1,24 @@
+[package]
+name = "envoypb"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+license = "MIT"
+description = "A crate containing built protobufs for the Envoy XDS data plane API"
+repository = "https://github.com/jacobneiltaylor/jnt"
+readme = "README.md"
+
+[dependencies]
+prost = "*"
+tonic = "*"
+
+[build-dependencies]
+flate2 = "1.0.35"
+glob = "0.3.1"
+phf = { version = "0.11.2", features = ["macros"] }
+prost-build = "0.13.4"
+protobuf-src = "2.1.0"
+tar = "0.4.43"
+temp-dir = "0.1.14"
+tonic-build = "0.12.3"
+ureq = "2.12.1"
