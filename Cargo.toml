@@ -1,11 +1,11 @@
 [package]
 name = "envoypb"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 build = "build.rs"
 license = "MIT"
 description = "A crate containing built protobufs for the Envoy XDS data plane API"
-repository = "https://github.com/jacobneiltaylor/jnt"
+repository = "https://github.com/jacobneiltaylor/envoypb"
 readme = "README.md"
 
 [dependencies]
