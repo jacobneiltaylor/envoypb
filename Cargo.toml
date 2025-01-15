@@ -9,8 +9,8 @@ repository = "https://github.com/jacobneiltaylor/jnt"
 readme = "README.md"
 
 [dependencies]
-prost = "*"
-tonic = "*"
+prost = "0.13.*"
+tonic = "0.12.*"
 
 [build-dependencies]
 flate2 = "1.0.35"
